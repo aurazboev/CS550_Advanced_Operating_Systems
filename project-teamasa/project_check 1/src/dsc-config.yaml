@@ -1,0 +1,14 @@
+wallet:
+  public_key: b9b53258c035e27d4100e88133127c77599146c1c9bc07610e2f0b6222eab87e
+pool:
+  server: 127.0.0.1
+  port: 10001
+  threads: 2
+blockchain:
+  server: 127.0.0.1
+  port: 10002
+  threads: 2
+metronome:
+  server: 127.0.0.1
+  port: 10003
+  threads: 2

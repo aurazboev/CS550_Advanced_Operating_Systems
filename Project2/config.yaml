@@ -1,0 +1,36 @@
+blockchain:
+  difficulty: 2
+  server_address: http://localhost:5002
+metronome:
+  block_generation_interval: 15
+  netspace: 1000
+  server_address: http://localhost:5003
+  validators:
+  - Validator1
+  - Validator2
+  - Validator3
+monitor:
+  blockchain_server: http://localhost:5002
+  metronome_server: http://localhost:5003
+  server_address: http://localhost:5008
+  validator_server: http://localhost:5007
+pool:
+  blockchain_address: http://localhost:5002
+  server_address: http://localhost:5005
+validator:
+  blockchain_server: http://localhost:5002
+  fingerprint: e78db409b05a7ce6ce2b3d4d68781eb83ec7038a56ff16440f617926f3df4635
+  metronome_server: http://localhost:5003
+  proof_config:
+    algorithm: pos
+    bucket_size: 4096
+    buckets: 256
+    enable: true
+    ram: 1024
+    storage: 1024
+    threads: 4
+    write_size: 512
+  public_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCrxb4w/i+J3RTjCFr0kjYsUcuiByltZ18e93NNV3jTAvlShMqDmNJOsEgxLv2825nDtY4FkGhbWWoXM6H8BSDRPGp7uRInpxufq4q8DsDMY+w+bagt+AD05u9FAGjG+dGc55MLK+0bN/zHcmK7aYm74YhpsePb8FQeSG+rsPWjH9IPEhAYXahgYg7x+Xa1gVDXZYChuSJBidS3bidrQ/agYhx3wH1gSg/A3kzeWclr4P5Kxl1PWvqgZA97J926aYVmfRhKaW0GUt12t6NywRHux64nIE+EP3ye8eFOQQE75rgXS9Z5Ui1Fxpyqxeg6rXLpNSCaWaLKXNxuyceKdtM1
+wallet:
+  private_key_path: C:\Users\Admin\Desktop\Project\dsc-key.yaml
+  public_key: 15f5f7cd634857432751e21364b6906bb556405bc3d1a7a36e12160b3e9ef9a4

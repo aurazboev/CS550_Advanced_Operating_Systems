@@ -1,0 +1,9 @@
+private_key: a72e04458385fc852918ca0db6830597e48441596341f789fa744a2eee75eb5a
+public_key: 02c6ba713d162063f53a105379c3127e18ca6a6392372a57aa5633327fb92cc0
+
+blockchain:
+  server_address: http://localhost:5002
+
+
+pool:
+  server_address: http://localhost:5005
